@@ -256,7 +256,7 @@ class TohyoTalk:
                 "status": False
             }
 
-    def icon(self, icon_path="ham.png"):
+    def icon(self, icon_path):
         if not self.data == None:
             fueldid = self.fueldid()
             cookies = {
