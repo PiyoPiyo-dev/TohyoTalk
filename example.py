@@ -1,6 +1,7 @@
 from TohyoTalk import TohyoTalk
 
-Tohyo = TohyoTalk()
+
+Tohyo = TohyoTalk(debug=False)  # debug=Trueでデバッグモード
 
 # 投票トークアカウント作成
 userID = "ユーザーID"
